@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src='http://code.jquery.com/jquery-1.8.0.min.js' type='text/javascript'></script>
+    <script type='text/javascript'>
+      //<![CDATA[
+        $(function () {
+          for (var i = 0; i < 10; ++i) {
+            $('#container ul').append('<li>' + i + '</li>');
+          }
+        });
+      //]]>
+    </script>
+  </head>
+  <body>
+    <div id='container'>
+      <ul></ul>
+    </div>
+  </body>
+</html>
